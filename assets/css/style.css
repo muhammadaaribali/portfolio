@@ -1862,3 +1862,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 .resume-btn:hover ion-icon{
   color:var(--orange-yellow-crayola);
 }
+@media (max-width: 580px) {
+  .resume-btn {
+    padding: 8px 14px;
+    font-size: 13px;
+    gap: 6px;
+    border-radius: 8px;
+  }
+
+  .resume-btn ion-icon {
+    font-size: 14px;
+  }
+}
