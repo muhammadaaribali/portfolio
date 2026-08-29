@@ -1543,8 +1543,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box img { width: 150px; }
 
+  .info-content {
+    width: 100%;
+    min-width: 0;
+  }
+
   .info-content .name {
-    white-space: nowrap;
+    font-size: 24px;
+    white-space: normal;
     text-align: center;
   }
 
